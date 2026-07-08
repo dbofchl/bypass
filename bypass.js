@@ -399,7 +399,7 @@
           authBox.innerHTML = `
             <h3 style="margin:0 0 8px 0;color:#00ffcc;font-size:18px;letter-spacing:1px;
                        font-weight:800;text-shadow:0 0 12px rgba(0,255,204,0.5);">
-             VANZ VIP METHOD MODE
+             BYPASS MODE VIP
             </h3>
             <p style="margin:0 0 22px 0;color:#64748b;font-size:10px;letter-spacing:1.5px;font-weight:600;">
               CHOOSE SECURITY BYPASS METHOD
