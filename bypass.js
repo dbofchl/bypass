@@ -409,8 +409,8 @@
             <button id="vanz-btn-secure" class="vanz-mode-btn vanz-btn-secure">SECURE MODE (MIDDLE)</button>
             <button id="vanz-btn-safe"   class="vanz-mode-btn vanz-btn-safe">SAFE MODE (FULL SAFE)</button>
           `;
-          document.getElementById("vanz-btn-fast").addEventListener("click",   () => runRedirect(30));
-          document.getElementById("vanz-btn-secure").addEventListener("click", () => runRedirect(45));
+          document.getElementById("vanz-btn-fast").addEventListener("click",   () => runRedirect(40));
+          document.getElementById("vanz-btn-secure").addEventListener("click", () => runRedirect(50));
           document.getElementById("vanz-btn-safe").addEventListener("click",   () => runRedirect(60));
         }, 800);
 
