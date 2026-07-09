@@ -399,18 +399,15 @@
           authBox.innerHTML = `
             <h3 style="margin:0 0 8px 0;color:#00ffcc;font-size:18px;letter-spacing:1px;
                        font-weight:800;text-shadow:0 0 12px rgba(0,255,204,0.5);">
-             BYPASS MODE VIP
+             PSTEAMADM BYPASS
             </h3>
             <p style="margin:0 0 22px 0;color:#64748b;font-size:10px;letter-spacing:1.5px;font-weight:600;">
               CHOOSE SECURITY BYPASS METHOD
             </p>
-
-            <button id="vanz-btn-fast"   class="vanz-mode-btn vanz-btn-fast">FAST MODE (BAN RISK)</button>
-            <button id="vanz-btn-secure" class="vanz-mode-btn vanz-btn-secure">SECURE MODE (MIDDLE)</button>
-            <button id="vanz-btn-safe"   class="vanz-mode-btn vanz-btn-safe">SAFE MODE (FULL SAFE)</button>
+            <button id="vanz-btn-safe"   class="vanz-mode-btn vanz-btn-safe">BYPASS GETKEY)</button>
           `;
-          document.getElementById("vanz-btn-fast").addEventListener("click",   () => runRedirect(40));
-          document.getElementById("vanz-btn-secure").addEventListener("click", () => runRedirect(50));
+          document.getElementById("vanz-btn-fast").addEventListener("click",   () => runRedirect(30));
+          document.getElementById("vanz-btn-secure").addEventListener("click", () => runRedirect(45));
           document.getElementById("vanz-btn-safe").addEventListener("click",   () => runRedirect(60));
         }, 800);
 
