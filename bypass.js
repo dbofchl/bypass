@@ -5,9 +5,9 @@
 
   // ─── Konfigurasi URL & Style ────────────────────────────────────────────────
   const CONFIG = {
-    r: _decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rib2ZjaGwvYnlwYXNzL21haW4vYnlwYXNzLnR4dA=="), 
-    t: _decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2Rib2ZjaGwvYnlwYXNzL21haW4vY2gudHh0"),
-    m: _decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY39tL3Zhbnotd2Vic2l0ZS9WYW56QnlwYXNzL21haW4vbXVzaWMubXAz"),
+    r: "https://raw.githubusercontent.com/dbofchl/bypass/main/bypass.txt", 
+    t: "https://raw.githubusercontent.com/dbofchl/bypass/main/ch.txt",
+    m: "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/music.mp3",
     s: "position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);" +
        "background:rgba(6, 10, 22, 0.8);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);" +
        "color:#fff;padding:40px 30px;border-radius:16px;z-index:2147483647;" +
@@ -17,7 +17,7 @@
   };
 
   const VALID_KEYS = ["psteamadm"];
-  const FALLBACK_MUSIC_URL = _decode("aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY39tL3Zhbnotd2Vic2l0ZS9WYW56QnlwYXNzL21haW4vbXVzaWMubXAz");
+  const FALLBACK_MUSIC_URL = "https://raw.githubusercontent.com/vanz-website/VanzBypass/main/music.mp3";
   
   let audioPlayer = null;
   let matrixState = "LOGIN"; // Status: LOGIN, OVERLOAD, BYPASS
@@ -30,7 +30,7 @@
     document.getElementById("vanz-floating-credit")?.remove();
 
     const titleName    = "PSTeamAdm";
-    const telegramLink = _decode("aHR0cHM6Ly90Lm1lL3BzdGVhbWFkbV9vZmZpY2lhbA=="); 
+    const telegramLink = "https://t.me/psteamadm_official"; 
 
     // ── Inject CSS Kustom untuk Efek Neon & Glitch ──────────────────────────
     const styleEl = document.createElement("style");
@@ -144,7 +144,7 @@
         ${titleName}
       </h3>
       <p style="margin:0 0 30px 0;color:#475569;font-size:10px;letter-spacing:2px;">
-        MATRIX_INTERFACE_v4.0
+        BYPASS VIP 2.0
       </p>
 
       <input type="text" id="vanz-key-input" class="matrix-input-glow" placeholder="[ ENTER ACCESS KEY ]" style="
@@ -158,14 +158,14 @@
         border-radius:6px;font-weight:900;cursor:pointer;font-size:12px;
         letter-spacing:2px;margin-bottom:12px;font-family:inherit;
         box-shadow:0 0 15px rgba(0,255,102,0.3);transition:all 0.2s ease;">
-        CONNECT_TO_HOST
+        LOGIN
       </button>
 
       <button id="vanz-telegram-btn" style="
         width:100%;background:transparent;color:#229ED9;border:1px solid #229ED9;
         padding:12px;border-radius:6px;font-weight:700;cursor:pointer;
         font-size:11px;letter-spacing:2px;font-family:inherit;transition:all 0.3s;">
-        TELEGRAM_CH
+        TELEGRAM
       </button>
 
       <div id="vanz-status" style="margin-top:25px;font-size:10px;color:#475569;letter-spacing:1px;">
